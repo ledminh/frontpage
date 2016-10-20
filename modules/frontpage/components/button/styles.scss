@@ -1,0 +1,10 @@
+.button {
+  box-sizing: border-box;
+  display:inline-block;
+  padding: 5px;
+  border: 2px solid;
+  cursor: pointer;
+  &:hover {
+    background-color: lighten(#66746c, 20);
+  }
+}
